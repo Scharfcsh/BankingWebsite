@@ -31,7 +31,7 @@ function Footer() {
 
       </div>
       <div className={`flex w-full justify-between items-center pt-6 md:flex-row flex-col border-t-[1px] border-t-[#3F3E45] `}>
-        <p className={`font-poppins font-semibold text-[18px] text-white`}>2021 HooBank. All Rights Reserved.</p>
+        <p className={`font-poppins font-semibold text-[18px] text-white`}>2021 NoBank. All Rights Reserved.</p>
 
         <div className='flex flex-row md:mt0 mt-6'
         >
