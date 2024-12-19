@@ -7,9 +7,9 @@ function Testimonials() {
   return (
     <section
       id="clients"
-      className={`${styles.paddingY} ${styles.flexCenter} flex-col relative`}
+      className={`${styles.paddingY} ${styles.flexCenter} flex-col relative overflow-x-hidden`}
     >
-      <div className="absolute z-[0] w-[40%] h-[80%] rounded-full blue__gradient -right-[50%]"/>
+      <div className="absolute z-[0] w-[80%] h-[40%] rounded-full blue__gradient -right-[50%]"/>
       {/* <div className="absolute z-[0] w-[60%] h-[60%] rounded-full white__gradient -right-[50%] -top-[10%]"/> */}
       <div
         className={`flex md:flex-row flex-col w-full relative z-[1] sm:mb-16 mb-6  font-bold items-center justify-between`}

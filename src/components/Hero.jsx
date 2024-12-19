@@ -7,7 +7,7 @@ function Hero() {
   return (
     <section
       id="home"
-      className={`flex md:flex-row flex-col ${styles.paddingY}`}
+      className={`flex md:flex-row flex-col ${styles.paddingY} overflow-x-hidden relative`}
     >
       <div
         className={` flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}
@@ -42,13 +42,13 @@ function Hero() {
           annual fees.
         </p>
       </div>
-      <div>
+      <div className="overflow-x-hidden  ">
         <img src={robot} alt="billing"
         className="w-[100%] h-[100%] relative z-[5]" />
 
-        <div className="absolute z-[1] w-[80%] h-[35%] top-0 pink__gradient" />
-        {/* <div className="absolute z-[1] w-[30%] h-[50%] bottom-0 white__gradient" /> */}
-        <div className="absolute z-[0] w-[20%] h-[80%] bottom-20 blue__gradient m" />
+        <div className="absolute z-[1] w-[20%] h-[35%] top-0 pink__gradient" />
+        {/* <div className="absolute z-[1] w-[30%] h-[50%] bottom-0 white__gradient" />  */}
+        <div className="absolute z-[0] w-[20%] h-[40%] bottom-20 blue__gradient m" /> 
 
       </div>
 
